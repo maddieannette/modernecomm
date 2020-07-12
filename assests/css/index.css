@@ -1,0 +1,86 @@
+h1 {
+  font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(85, 83, 83);
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.salecode { 
+  text-align: center;
+  background-color: rgb(149, 160, 138);
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    align-content: center;
+    display: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    size: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #5c5b5b;
+    text-align: center;
+    align-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: rgb(110, 139, 68);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: white;
+  }
+  .sumcoll {
+    position: relative;
+    width: auto;
+    border-radius: 8px;
+  }
+  .sumcoll img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .sumcoll .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(161, 161, 161);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  .sumcoll .btn:hover {
+    background-color:rgb(103, 128, 103);
+  }
+  .greenshirts {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    align-content: left;
+  }
+  .bowls {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    align-content: right;
+  }
